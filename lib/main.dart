@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
+
 import 'splash_screen.dart';
 
 void main() async {
@@ -28,7 +29,7 @@ class AeraApp extends StatelessWidget {
         ),
         fontFamily: 'SF Pro Display',
         scaffoldBackgroundColor: Colors.transparent,
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 0,
           color: Colors.transparent,
           shape: RoundedRectangleBorder(

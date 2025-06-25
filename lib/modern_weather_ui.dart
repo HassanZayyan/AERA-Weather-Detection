@@ -1,8 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
-import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import 'dart:ui';
+
+import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+
 import 'weather_model.dart';
 
 class ModernWeatherUI extends StatefulWidget {
@@ -203,8 +205,6 @@ class _ModernWeatherUIState extends State<ModernWeatherUI>
 
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
-    
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(

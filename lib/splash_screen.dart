@@ -1,7 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:camera/camera.dart';
-import 'dart:ui';
 import 'dart:async';
+import 'dart:ui';
+
+import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
+
 import 'modern_weather_ui.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -120,8 +122,6 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
-    
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
