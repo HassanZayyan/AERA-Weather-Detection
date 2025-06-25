@@ -68,7 +68,7 @@
    flutter run
    ```
 
-### 🎯 Cara Pakai
+### 🎯 Cara Penggunaan
 
 1. **Splash Screen** - Nikmati animasi loading AERA yang menawan
 2. **Status Check** - Tunggu status "Model AI Siap" 
@@ -82,14 +82,14 @@
 
 ## 💡 Tips untuk Hasil Terbaik
 
-### ✅ DO (Lakukan)
+### ✅ Rekomendasi
 - Fokuskan kamera pada **langit** yang luas (minimal 60% frame)
 - Ambil foto saat **pencahayaan natural** yang cukup
 - Pastikan **kondisi cuaca jelas** terlihat
 - Gunakan foto dengan **resolusi tinggi**
 - Hindari foto dengan banyak **objek penghalang**
 
-### ❌ DON'T (Jangan)
+### ❌ Hindari
 - Foto yang didominasi gedung/pohon/gunung
 - Foto dalam ruangan atau malam hari
 - Foto yang terlalu gelap, blur, atau overexposed
@@ -139,7 +139,7 @@ assets/
 - ✅ Pastikan manifest Android dan Info.plist iOS sudah dikonfigurasi
 - ✅ Coba restart aplikasi atau device
 
-## 📊 AI Model Specifications
+## 📊 Spesifikasi Model AI
 
 - **Framework:** TensorFlow Lite
 - **Quantization:** INT8 untuk performa optimal
@@ -149,7 +149,7 @@ assets/
 - **Confidence Threshold:** 50% (default)
 - **Preprocessing:** Normalization dengan mean=127.5, std=127.5
 
-## 🎨 Design Philosophy
+## 🎨 Filosofi Desain
 
 AERA menggunakan **Glassmorphism Design Language** dengan:
 - **Colors**: Purple gradient (#6C5CE7) dengan dark theme
@@ -158,39 +158,59 @@ AERA menggunakan **Glassmorphism Design Language** dengan:
 - **Typography**: SF Pro Display 
 - **Animations**: Fluid dan purposeful animations
 
-## 🚀 Performance Optimizations
+## 🚀 Optimisasi Performa
 
 - **Lazy Loading**: Model dimuat saat splash screen
 - **Image Optimization**: Auto-resize gambar
 - **Memory Management**: Proper disposal animasi controllers
 - **Async Processing**: Non-blocking UI untuk AI inference
 
-## 📱 Platform Support
+## 📱 Dukungan Platform
 
 - ✅ **Android** (API 21+)
-- ✅ **iOS** (iOS 11+)
 - ✅ **Phone & Tablet** - Responsive design
 
-## 🎯 Roadmap
+## 🎯 Roadmap Pengembangan
 
-### 🔜 Coming Soon
+### 🔜 Fitur Mendatang
 - [ ] Weather history tracking
 - [ ] Weather location mapping
 - [ ] Dark/Light theme toggle
 - [ ] Export prediction results
 
-## 📄 Credits & License
+## 👥 Tim Pengembang
 
-**AERA** is created with ❤️ using:
-- Flutter framework
-- TensorFlow Lite
-- Material Design 3
-- SF Pro Display font
+**AERA** dikembangkan dengan oleh:
+- **Ardan Ferdiansah** 
+- **Muhammad Hassan Naufal Zayyan**
 
-**License:** MIT License - Feel free to use and modify
+## 🛠️ Teknologi yang Digunakan
+
+- **Flutter Framework** - Cross-platform mobile development
+- **TensorFlow Lite** - On-device machine learning
+- **Material Design 3** - Modern UI components
+- **SF Pro Display** - Premium typography
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah **MIT License** - silakan gunakan dan modifikasi sesuai kebutuhan.
+
+Lihat file [LICENSE](LICENSE) untuk detail lengkap.
+
+## 🤝 Kontribusi
+
+Kami menyambut kontribusi dari komunitas! Silakan:
+
+1. Fork repository ini
+2. Buat branch untuk fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
 
 ---
 
-**✨ Experience the future of weather recognition with AERA's stunning glassmorphism interface!**
+**✨ Rasakan masa depan pengenalan cuaca dengan antarmuka glassmorphism AERA yang memukau!**
 
 **🎯 Best Practice:** Jalankan dalam release mode untuk performa optimal: `flutter run --release`
+
+**⭐ Jika proyek ini bermanfaat, jangan lupa berikan star di GitHub!**
