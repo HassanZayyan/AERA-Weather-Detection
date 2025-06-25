@@ -181,7 +181,11 @@ AERA menggunakan **Glassmorphism Design Language** dengan:
 
 ## 📄 Credits & License
 
-**AERA** is created with ❤️ using:
+**AERA** is created with by:
+- **Ardan Ferdiansah**
+- **Muhammad Hassan Naufal Zayyan**
+
+**Built using:**
 - Flutter framework
 - TensorFlow Lite
 - Material Design 3
