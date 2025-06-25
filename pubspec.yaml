@@ -1,4 +1,4 @@
-name: pendeteksi_cuaca
+name: AERA
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
@@ -15,12 +15,18 @@ dependencies:
   permission_handler: ^11.3.0
   path_provider: ^2.1.2
   camera: ^0.10.5+9
+  flutter_launcher_icons: ^0.14.4
   
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
 
 flutter:
   uses-material-design: true
