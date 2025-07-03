@@ -29,11 +29,11 @@ class AeraApp extends StatelessWidget {
         ),
         fontFamily: 'SF Pro Display',
         scaffoldBackgroundColor: Colors.transparent,
-        cardTheme: CardThemeData(
+        cardTheme: const CardThemeData(
           elevation: 0,
           color: Colors.transparent,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
